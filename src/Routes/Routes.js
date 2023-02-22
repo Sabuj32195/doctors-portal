@@ -1,5 +1,6 @@
 import Appoinment from "../Pages/Appoinment/Appoinment/Appoinment";
 import Login from "../Pages/LogIn/Login";
+import Register from "../Pages/Register/Register";
 import Reviews from "../Pages/Reviews/Reviews";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -26,6 +27,10 @@ export const router=createBrowserRouter([
             {
                 path:'/reviews',
                 element:<Reviews></Reviews>
+            },
+            {
+                path:'/register',
+                element:<Register></Register>
             }
         ]
     }
